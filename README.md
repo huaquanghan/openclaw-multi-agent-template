@@ -48,9 +48,9 @@ Follow the workflow in `ORCHESTRATION_WORKFLOW.md` to begin delegating tasks.
 |-------|------|-------|-------------|
 | **Cọp** | Orchestrator | 🐯 | Coordinates the team, makes decisions |
 | **Mắt Cú** | Researcher | 🦉 | Gathers information, fact-checks |
-| **Tiểu Mỉ** | Secretary | 🐱 | Manages tasks, schedules, reminders |
-| **Tí Cận** | Software Engineer | 🐭 | Codes, debugs, builds |
-| **Tiểu Hoa** | Designer | 🦋 | Creates visuals, UI/UX design |
+| **Tiểu Mỉ** | Secretary | 🌸 | Manages tasks, schedules, reminders |
+| **Tí Cận** | Software Engineer | 💻 | Codes, debugs, builds, DevOps |
+| **Tiểu Hoa** | Designer | 🎨 | Creates visuals, UI/UX design |
 
 ## Documentation
 
