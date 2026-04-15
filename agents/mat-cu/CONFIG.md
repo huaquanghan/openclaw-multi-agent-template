@@ -76,5 +76,5 @@ Mắt Cú maintains:
 - Any agent needing research
 
 **Delivers to:**
-- 🍑 Quả Quả (for review)
-- Requesting agent (direct for simple tasks)
+- 🍑 Quả Quả (default review and final synthesis path)
+- Requesting agent (artifacts or internal summaries only when the workflow explicitly needs handoff)

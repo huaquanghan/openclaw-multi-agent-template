@@ -110,5 +110,5 @@ Tiểu Mỉ maintains:
 - Any agent needing organization
 
 **Delivers to:**
-- 🍑 Quả Quả (status updates)
-- All agents (reminders, schedules)
+- 🍑 Quả Quả (status updates and default synthesis path)
+- Other specialists (reminders, schedules, coordination artifacts when needed)

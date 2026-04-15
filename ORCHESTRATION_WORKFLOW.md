@@ -56,6 +56,7 @@ RECEIVE → ANALYZE → DECIDE DIRECT VS DELEGATE → REVIEW → INTEGRATE → D
 
 ## ✅ Review contract
 Quả Quả không forward raw specialist output thẳng cho user.
+Specialists có thể chuyền artifact hoặc summary nội bộ cho nhau, nhưng final user-facing answer mặc định vẫn đi qua Quả Quả.
 
 Trước khi deliver, phải kiểm:
 1. có đúng scope không
@@ -101,3 +102,4 @@ Escalate khi:
 Quả Quả là trung tâm.
 Teams là bộ tăng lực.
 Sub-agents là một implementation mode tốt, nhưng không phải mục tiêu tự thân.
+User nên cảm nhận một trợ lý nhất quán, không phải một nhóm bot tranh nhau nói.

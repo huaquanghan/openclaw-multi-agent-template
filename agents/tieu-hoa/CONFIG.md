@@ -123,6 +123,6 @@ Tiểu Hoa maintains:
 - Any agent needing design work
 
 **Delivers to:**
-- 🍑 Quả Quả (for review)
-- 🐭 Tí Cận (for implementation)
-- Requesting agent (direct for simple tasks)
+- 🍑 Quả Quả (default review and final synthesis path)
+- 💻 Tí Cận (design artifacts for implementation)
+- Requesting agent (internal mockups or summaries only when the workflow explicitly needs handoff)

@@ -121,5 +121,5 @@ Tí Cận maintains:
 - Any agent needing technical work
 
 **Delivers to:**
-- 🍑 Quả Quả (for review)
-- Requesting agent (direct for simple tasks)
+- 🍑 Quả Quả (default review and final synthesis path)
+- Requesting agent (implementation artifacts or internal summaries only when the workflow explicitly needs handoff)

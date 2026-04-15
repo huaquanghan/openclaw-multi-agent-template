@@ -15,6 +15,7 @@ That means:
 - the user talks to one coherent assistant
 - teams exist to extend capability, not fragment the experience
 - sub-agents are a runtime implementation detail, not the whole identity
+- final user-facing delivery should stay with Quả Quả unless you intentionally design a different runtime
 
 ## Team Roster (default framing)
 
@@ -69,6 +70,10 @@ Suggested specialist response shape:
    - what blocked progress
    - the smallest decision needed
 3. Quả Quả decides whether to revise scope, ask the user, or continue directly.
+
+### Delivery rule
+- Specialists may hand artifacts or summaries to other specialists when the workflow calls for it.
+- Final user-facing synthesis should still come from Quả Quả in the default template.
 
 ## Decision matrix
 
