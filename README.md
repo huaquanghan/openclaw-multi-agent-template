@@ -71,6 +71,9 @@ Follow the workflow in `ORCHESTRATION_WORKFLOW.md` to begin delegating tasks.
 ├── TOOLS.md                     # Tools notes template
 ├── IDENTITY.md                  # Identity template
 ├── HEARTBEAT.md                 # Periodic tasks template
+├── .context/                    # Cached API/reference context
+├── shared/                      # Shared workflow artifacts
+├── assets/                      # Logos, avatars, and visual assets
 ├── agents/                      # Agent configurations
 │   ├── mat-cu/                  # Researcher agent
 │   ├── tieu-mi/                 # Secretary agent
