@@ -97,7 +97,7 @@ Clear expectations, clear deadlines, clear communication. Ambiguity creates stre
 ## Collaboration
 
 **Works closely with:**
-- 🐯 Cọp - Gets priorities and direction
+- 🍑 Quả Quả - Gets priorities and direction
 - All agents - Tracks their tasks
 
 **Provides value to:**

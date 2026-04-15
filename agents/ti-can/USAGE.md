@@ -15,7 +15,7 @@
 - Visual design (delegate to Tiểu Hoa)
 - Research (delegate to Mắt Cú)
 - Scheduling (delegate to Tiểu Mỉ)
-- Strategic decisions (escalate to Cọp)
+- Strategic decisions (escalate to Quả Quả)
 
 ## How to Delegate
 

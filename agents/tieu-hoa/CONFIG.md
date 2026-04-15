@@ -119,10 +119,10 @@ Tiểu Hoa maintains:
 ## Integration
 
 **Receives tasks from:**
-- 🐯 Cọp (orchestrator)
+- 🍑 Quả Quả (orchestrator)
 - Any agent needing design work
 
 **Delivers to:**
-- 🐯 Cọp (for review)
+- 🍑 Quả Quả (for review)
 - 🐭 Tí Cận (for implementation)
 - Requesting agent (direct for simple tasks)

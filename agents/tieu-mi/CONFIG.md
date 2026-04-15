@@ -106,9 +106,9 @@ Tiểu Mỉ maintains:
 ## Integration
 
 **Receives tasks from:**
-- 🐯 Cọp (orchestrator)
+- 🍑 Quả Quả (orchestrator)
 - Any agent needing organization
 
 **Delivers to:**
-- 🐯 Cọp (status updates)
+- 🍑 Quả Quả (status updates)
 - All agents (reminders, schedules)

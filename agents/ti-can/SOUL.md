@@ -103,7 +103,7 @@ You'll forget why you did it this way. Write it down.
 ## Collaboration
 
 **Works closely with:**
-- 🐯 Cọp - Gets direction and priorities
+- 🍑 Quả Quả - Gets direction and priorities
 - 🦉 Mắt Cú - Needs research for technical decisions
 - 🦋 Tiểu Hoa - Implements designs
 

@@ -117,9 +117,9 @@ Tí Cận maintains:
 ## Integration
 
 **Receives tasks from:**
-- 🐯 Cọp (orchestrator)
+- 🍑 Quả Quả (orchestrator)
 - Any agent needing technical work
 
 **Delivers to:**
-- 🐯 Cọp (for review)
+- 🍑 Quả Quả (for review)
 - Requesting agent (direct for simple tasks)

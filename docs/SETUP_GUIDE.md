@@ -1,152 +1,171 @@
 # Setup Guide
 
-Complete guide to setting up your OpenClaw multi-agent team.
+Complete guide to setting up your **Quả Quả + Teams** OpenClaw template.
+
+## What you are setting up
+
+This template supports three modes:
+1. **Quả Quả only**
+2. **Quả Quả + sub-agents**
+3. **Quả Quả + persistent specialists**
+
+Start simple. You can add more orchestration later.
 
 ## Prerequisites
 
 - OpenClaw installed and running
-- GitHub account (for forking this template)
+- GitHub account if you want to fork this template
 - Basic familiarity with markdown
 
-## Step 1: Fork the Template
+## Step 1: Fork the template
 
 1. Go to the template repository on GitHub
-2. Click "Use this template" → "Create a new repository"
-3. Name your repository
+2. Click "Use this template"
+3. Create your repository
 4. Choose public or private
-5. Click "Create repository"
 
-## Step 2: Clone Your Repository
+## Step 2: Clone your repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
 ```
 
-## Step 3: Customize the Orchestrator
+## Step 3: Customize the identity layer
 
-Edit `SOUL.md` to define your orchestrator's personality:
+Start with the root files:
+- `SOUL.md` - define who Quả Quả is
+- `IDENTITY.md` - name, emoji, vibe
+- `USER.md` - who the assistant is helping
+- `AGENTS.md` - workspace law and team map
+
+Example shape for `SOUL.md`:
 
 ```markdown
-# SOUL.md - Orchestrator Persona
+# SOUL.md - Core Persona
 
-**Name:** [Your orchestrator's name]
-**Creature:** [What they are]
-**Emoji:** [Their signature emoji]
-**Role:** Team lead, decision maker
+**Name:** [assistant name]
+**Creature:** [what they are]
+**Emoji:** [signature emoji]
+**Role:** User-facing orchestrator
 
 ## Personality
-[Define how they communicate and lead]
+[How they communicate]
 
-## Team Dynamics
-[How they interact with agents]
+## Delegation Rules
+[When they should do the work directly vs delegate]
 ```
 
-## Step 4: Customize Agents
+## Step 4: Customize the teams layer
 
-For each agent in `agents/`:
+For each specialist in `agents/`:
+1. Edit `SOUL.md`
+2. Edit `USAGE.md`
+3. Edit `CONFIG.md`
+4. Edit `IDENTITY.md`
 
-1. Edit `SOUL.md` - Define personality
-2. Edit `USAGE.md` - Document capabilities
-3. Edit `CONFIG.md` - Set preferences
+### Team checklist
+- [ ] 🦉 Mắt Cú, research and synthesis
+- [ ] 🌸 Tiểu Mỉ, coordination and notes
+- [ ] 💻 Tí Cận, build and technical work
+- [ ] 🎨 Tiểu Hoa, design and visuals
 
-### Agent Customization Checklist
+## Step 5: Pick your runtime mode
 
-- [ ] 🦉 Researcher (`agents/mat-cu/`)
-- [ ] 🐱 Secretary (`agents/tieu-mi/`)
-- [ ] 🐭 Engineer (`agents/ti-can/`)
-- [ ] 🦋 Designer (`agents/tieu-hoa/`)
+### Mode 1: Quả Quả only
+- keep everything lightweight
+- use team docs as routing/thinking aids
 
-## Step 5: Update Team Documentation
+### Mode 2: Quả Quả + sub-agents
+- Quả Quả stays user-facing
+- specialists run as bounded workers
+- recommended default once delegation starts being useful
 
-Edit these files to match your setup:
+### Mode 3: Quả Quả + persistent specialists
+- use only when repeated workload justifies more complexity
 
-### AGENTS.md
-Update the team roster with your agents' names and roles.
+## Step 6: Update workflow docs
 
-### ORCHESTRATION_WORKFLOW.md
-Customize the workflow to match your team's processes.
+Review and adjust:
+- `AGENTS.md`
+- `ORCHESTRATION_WORKFLOW.md`
+- `USER.md`
+- `TOOLS.md`
 
-### USER.md
-Fill in information about yourself (the user).
+Make sure the docs all agree on:
+- who Quả Quả is
+- when delegation happens
+- how specialists hand work back
 
-## Step 6: Configure Tools
+## Step 7: Configure tools and local notes
 
-Edit `TOOLS.md` to add your environment-specific notes:
+Use `TOOLS.md` for setup-specific notes:
 
 ```markdown
 ### SSH
-- my-server → [IP/hostname]
+- app-server -> [hostname]
 
-### API Keys
-- Service: [How to access]
+### Services
+- calendar source -> [how it is connected]
 
 ### Preferences
-- Default voice: [For TTS]
+- preferred voice -> [value]
 ```
 
-## Step 7: Set Up Identity
+## Step 8: Configure heartbeat and memory
 
-Edit `IDENTITY.md` for each agent:
+- `HEARTBEAT.md` for recurring checks
+- `memory/YYYY-MM-DD.md` for daily continuity
+- `MEMORY.md` for curated long-term context
 
-```markdown
-- **Name:** [Agent's chosen name]
-- **Creature:** [What they are]
-- **Vibe:** [How they come across]
-- **Emoji:** [Their signature]
-```
+## Step 9: Test the setup
 
-## Step 8: Configure Heartbeat
+### Minimal test
+1. Start a session with Quả Quả
+2. Ask for a small task
+3. Verify the voice and behavior feel right
 
-Edit `HEARTBEAT.md` to define periodic tasks:
+### Sub-agent test
+1. Ask Quả Quả to split a task into research + build
+2. Verify delegation stays bounded
+3. Verify Quả Quả synthesizes before replying
 
-```markdown
-## My Custom Checks
-- [ ] Check emails
-- [ ] Review calendar
-- [ ] Monitor [specific thing]
-```
-
-## Step 9: Test Your Setup
-
-1. Start a new session with your orchestrator
-2. Try delegating a simple task to each agent
-3. Verify the workflow feels natural
-4. Adjust personalities as needed
-
-## Step 10: Commit Your Changes
+## Step 10: Commit your setup
 
 ```bash
 git add .
-git commit -m "Customize multi-agent team setup"
+git commit -m "customize qua qua teams template"
 git push origin main
 ```
 
-## Next Steps
+## Optional knowledge layer
 
-- Read [CUSTOMIZATION.md](CUSTOMIZATION.md) for advanced options
-- See [EXAMPLES.md](EXAMPLES.md) for workflow examples
-- Start using your team for real tasks!
+If you want stronger long-term searchable knowledge later, add a separate durable knowledge system such as GBrain.
+
+Keep the layering clear:
+- workspace for active execution
+- memory files for continuity
+- durable knowledge only when it is worth preserving separately
+
+## Next steps
+
+- Read [CUSTOMIZATION.md](CUSTOMIZATION.md)
+- Read [EXAMPLES.md](EXAMPLES.md)
+- Start with real tasks before adding more structure
 
 ## Troubleshooting
 
-### Agents not responding as expected
-- Check their `SOUL.md` files
-- Verify prompts are clear
-- Adjust personalities if needed
+### Delegation feels clunky
+- delegate less often
+- narrow sub-agent scope
+- improve handoff format
 
-### Workflow feels clunky
-- Simplify the orchestration
-- Reduce handoff steps
-- Automate where possible
+### Voice feels inconsistent
+- tighten `SOUL.md`
+- make Quả Quả rewrite final outputs
+- reduce raw specialist text in final replies
 
-### Memory not persisting
-- Ensure `memory/` folder exists
-- Check file permissions
-- Verify `.gitignore` excludes sensitive files
-
-## Support
-
-- OpenClaw documentation: [Link]
-- Template issues: [Your repo issues]
-- Community: [Discord/Forum link]
+### Memory feels messy
+- keep daily notes raw
+- promote only lasting context into curated memory
+- avoid storing transient execution detail as durable knowledge
