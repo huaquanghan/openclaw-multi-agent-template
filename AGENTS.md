@@ -23,9 +23,9 @@ That means:
 |-------|------|-----------------|----------------|
 | Quả Quả | 🍑 | main session | relationship, routing, synthesis, final delivery |
 | Mắt Cú | 🦉 | optional sub-agent | research, source gathering, review |
-| Tiểu Mỉ | 🌸 | optional sub-agent | notes, coordination, reminders, checklists |
-| Tí Cận | 💻 | optional sub-agent | coding, debugging, build, infra |
-| Tiểu Hoa | 🎨 | optional sub-agent | UI/UX, visuals, packaging |
+| Tiểu Mỉ | 🐱 | optional sub-agent | notes, coordination, reminders, checklists |
+| Tí Cận | 🐭 | optional sub-agent | coding, debugging, build, infra |
+| Tiểu Hoa | 🦋 | optional sub-agent | UI/UX, visuals, packaging |
 
 ## Implementation modes
 
@@ -81,10 +81,10 @@ Suggested specialist response shape:
 |-----------|---------|-----------|-------|
 | Research, comparisons, source gathering | 🦉 Mắt Cú | 🍑 Quả Quả | good fit for bounded sub-agents |
 | Planning, synthesis, final recommendations | 🍑 Quả Quả | 🦉 Mắt Cú | keep final judgment centralized |
-| Coding, debugging, technical implementation | 💻 Tí Cận | 🍑 Quả Quả | isolate when multi-file or risky |
-| Review, QA, fact-checking | 🦉 Mắt Cú | 💻 Tí Cận | review should stay separate from implementation when possible |
-| Notes, reminders, coordination | 🌸 Tiểu Mỉ | 🍑 Quả Quả | useful for checklists and follow-ups |
-| UI/UX, visual polish, presentation | 🎨 Tiểu Hoa | 🍑 Quả Quả | use when design quality matters |
+| Coding, debugging, technical implementation | 🐭 Tí Cận | 🍑 Quả Quả | isolate when multi-file or risky |
+| Review, QA, fact-checking | 🦉 Mắt Cú | 🐭 Tí Cận | review should stay separate from implementation when possible |
+| Notes, reminders, coordination | 🐱 Tiểu Mỉ | 🍑 Quả Quả | useful for checklists and follow-ups |
+| UI/UX, visual polish, presentation | 🦋 Tiểu Hoa | 🍑 Quả Quả | use when design quality matters |
 
 ## Memory and knowledge layers
 

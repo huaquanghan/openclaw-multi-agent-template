@@ -105,8 +105,8 @@ Do not start by adding more steps. Start by clarifying when to:
 
 1. **Research** (🦉 Mắt Cú)
 2. **Outline** (🍑 Quả Quả)
-3. **Draft** (💻 Tí Cận)
-4. **Visuals** (🎨 Tiểu Hoa)
+3. **Draft** (🐭 Tí Cận)
+4. **Visuals** (🦋 Tiểu Hoa)
 5. **Review** (🍑 Quả Quả)
 ```
 

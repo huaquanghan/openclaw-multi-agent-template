@@ -31,14 +31,14 @@ Focus on conversion, layout patterns, copy strategy, and 3 to 5 competitors.
 Deliver a concise summary with references.
 ```
 
-**Phase 2: Design** (🎨 Tiểu Hoa)
+**Phase 2: Design** (🦋 Tiểu Hoa)
 ```text
 Create a landing page concept based on the research.
 Sections: hero, features, testimonials, pricing, CTA, footer.
 Style: clean and trustworthy.
 ```
 
-**Phase 3: Build** (💻 Tí Cận)
+**Phase 3: Build** (🐭 Tí Cận)
 ```text
 Build the page from the approved direction.
 Requirements: responsive, accessible, fast, simple deployment.
@@ -76,12 +76,12 @@ Return a source-backed summary.
 Extract the key insights, shape the narrative, decide what matters to the audience.
 ```
 
-**Phase 3: Visuals** (🎨 Tiểu Hoa)
+**Phase 3: Visuals** (🦋 Tiểu Hoa)
 ```text
 Create charts, diagrams, or one-page summary visuals.
 ```
 
-**Phase 4: Packaging** (💻 Tí Cận)
+**Phase 4: Packaging** (🐭 Tí Cận)
 ```text
 Assemble the final report in the required format.
 ```
@@ -102,17 +102,17 @@ Launch a new feature with coordinated support work.
 > We are launching a feature next week.
 > We will keep coordination centralized and parallelize only the useful parts.
 
-**🌸 Tiểu Mỉ - Coordination**
+**🐱 Tiểu Mỉ - Coordination**
 ```text
 Create the launch checklist, milestones, reminders, and follow-up structure.
 ```
 
-**💻 Tí Cận - Technical**
+**🐭 Tí Cận - Technical**
 ```text
 Final review, deploy plan, monitoring checklist, rollback plan.
 ```
 
-**🎨 Tiểu Hoa - Launch assets**
+**🦋 Tiểu Hoa - Launch assets**
 ```text
 Prepare graphics, screenshots, and visual support materials.
 ```
@@ -143,12 +143,12 @@ A critical production issue needs fast response.
 > Critical bug, users cannot save work.
 > Tí Cận investigates first. Others stay scoped unless needed.
 
-**Phase 1: Investigation** (💻 Tí Cận)
+**Phase 1: Investigation** (🐭 Tí Cận)
 ```text
 Reproduce the issue, inspect logs, identify root cause, estimate fix time.
 ```
 
-**Phase 2: Fix** (💻 Tí Cận)
+**Phase 2: Fix** (🐭 Tí Cận)
 ```text
 Implement the fix and verify it.
 ```
@@ -188,12 +188,12 @@ Find common beginner questions, documentation gaps, and useful comparable guides
 Shape the structure, key message, and target reader path.
 ```
 
-**Phase 3: Draft** (💻 Tí Cận)
+**Phase 3: Draft** (🐭 Tí Cận)
 ```text
 Write the content with working commands and concrete examples.
 ```
 
-**Phase 4: Visuals** (🎨 Tiểu Hoa)
+**Phase 4: Visuals** (🦋 Tiểu Hoa)
 ```text
 Create diagrams, screenshots, and simple supporting graphics.
 ```
@@ -218,7 +218,7 @@ Plan and execute a team workshop.
 **🍑 Quả Quả:**
 > Plan a 2-hour workshop and keep logistics, research, visuals, and facilitation aligned.
 
-**🌸 Tiểu Mỉ - Logistics**
+**🐱 Tiểu Mỉ - Logistics**
 ```text
 Handle scheduling, agenda, reminders, and attendee coordination.
 ```
@@ -228,12 +228,12 @@ Handle scheduling, agenda, reminders, and attendee coordination.
 Prepare facilitation methods, activity ideas, and supporting references.
 ```
 
-**🎨 Tiểu Hoa - Materials**
+**🦋 Tiểu Hoa - Materials**
 ```text
 Create slides, templates, worksheets, and visual aids.
 ```
 
-**💻 Tí Cận - Technical setup**
+**🐭 Tí Cận - Technical setup**
 ```text
 Prepare conferencing, collaborative tools, and any demo environment.
 ```

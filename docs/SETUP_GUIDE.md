@@ -66,9 +66,9 @@ For each specialist in `agents/`:
 
 ### Team checklist
 - [ ] 🦉 Mắt Cú, research and synthesis
-- [ ] 🌸 Tiểu Mỉ, coordination and notes
-- [ ] 💻 Tí Cận, build and technical work
-- [ ] 🎨 Tiểu Hoa, design and visuals
+- [ ] 🐱 Tiểu Mỉ, coordination and notes
+- [ ] 🐭 Tí Cận, build and technical work
+- [ ] 🦋 Tiểu Hoa, design and visuals
 
 ## Step 5: Pick your runtime mode
 

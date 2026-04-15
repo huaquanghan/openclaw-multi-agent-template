@@ -77,9 +77,9 @@ Read [`ORCHESTRATION_WORKFLOW.md`](ORCHESTRATION_WORKFLOW.md) and use it as the 
 |-------|------|---------|
 | **Quả Quả** | Core orchestrator | Owns the relationship, decides, delegates, synthesizes |
 | **Mắt Cú** | Research team | Research, fact-checking, synthesis |
-| **Tiểu Mỉ** | Coordination team | Notes, reminders, schedules, checklists |
-| **Tí Cận** | Build team | Coding, debugging, DevOps, implementation |
-| **Tiểu Hoa** | Design team | Visuals, UI/UX, presentation |
+| **Tiểu Mỉ** 🐱 | Coordination team | Notes, reminders, schedules, checklists |
+| **Tí Cận** 🐭 | Build team | Coding, debugging, DevOps, implementation |
+| **Tiểu Hoa** 🦋 | Design team | Visuals, UI/UX, presentation |
 
 ## Knowledge Model
 

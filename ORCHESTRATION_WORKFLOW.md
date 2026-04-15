@@ -31,18 +31,18 @@ RECEIVE → ANALYZE → DECIDE DIRECT VS DELEGATE → REVIEW → INTEGRATE → D
 | Team | Icon | Vai trò | Runtime mặc định | Khi nào gọi |
 |------|------|---------|------------------|-------------|
 | Mắt Cú | 🦉 | Research, phân tích, tổng hợp | optional sub-agent | cần tìm hiểu, so sánh, fact-check |
-| Tiểu Mỉ | 🌸 | Notes, schedule, follow-up | optional sub-agent | cần checklist, tổ chức, recap |
-| Tí Cận | 💻 | Code, build, debug, ops | optional sub-agent | cần implementation hoặc technical deep work |
-| Tiểu Hoa | 🎨 | UI/UX, hình ảnh, trình bày | optional sub-agent | cần mockup, visual, polish |
+| Tiểu Mỉ | 🐱 | Notes, schedule, follow-up | optional sub-agent | cần checklist, tổ chức, recap |
+| Tí Cận | 🐭 | Code, build, debug, ops | optional sub-agent | cần implementation hoặc technical deep work |
+| Tiểu Hoa | 🦋 | UI/UX, hình ảnh, trình bày | optional sub-agent | cần mockup, visual, polish |
 
 ## 📋 Decision matrix
 | Yêu cầu | Team phù hợp | Notes |
 |---------|--------------|-------|
 | research, compare, summarize sources | 🦉 Mắt Cú | tốt cho bounded sub-agent runs |
 | plan, decide, synthesize | 🍑 Quả Quả | nên giữ final call ở trung tâm |
-| code, debug, refactor, ops | 💻 Tí Cận | thêm review step khi task quan trọng |
-| reminders, notes, checklists | 🌸 Tiểu Mỉ | hữu ích cho coordination tasks |
-| design, UI/UX, presentation | 🎨 Tiểu Hoa | dùng khi output cần polish |
+| code, debug, refactor, ops | 🐭 Tí Cận | thêm review step khi task quan trọng |
+| reminders, notes, checklists | 🐱 Tiểu Mỉ | hữu ích cho coordination tasks |
+| design, UI/UX, presentation | 🦋 Tiểu Hoa | dùng khi output cần polish |
 
 ## 📝 Handoff template
 ```
