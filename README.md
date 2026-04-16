@@ -16,6 +16,8 @@ This means the template works in three modes:
 2. **Quả Quả + sub-agents**
 3. **Quả Quả + persistent specialist agents**
 
+Recommended default: start **AI-first** with one strong Quả Quả runtime, then add native OpenClaw sub-agents only when real workload justifies them.
+
 ## What this template is for
 
 Use this repo when you want:
@@ -98,7 +100,7 @@ Durable knowledge is optional. The minimal template does not require it.
 - [ORCHESTRATION_WORKFLOW.md](ORCHESTRATION_WORKFLOW.md) - Quả Quả-led delegation flow
 - [SUBAGENT_PLAYBOOK.md](docs/SUBAGENT_PLAYBOOK.md) - practical rules for bounded specialist spawns
 - [KNOWLEDGE_ROUTING.md](docs/KNOWLEDGE_ROUTING.md) - workspace vs memory vs durable knowledge routing
-- [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - native OpenClaw setup for fully sub-agent execution
+- [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - AI-first OpenClaw config and native sub-agent setup
 - [QUAQUA_TEAMS_TEMPLATE_SPEC.md](docs/QUAQUA_TEAMS_TEMPLATE_SPEC.md) - target framing for this template
 
 ## File Structure

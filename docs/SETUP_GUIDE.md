@@ -75,14 +75,17 @@ For each specialist in `agents/`:
 ### Mode 1: Quả Quả only
 - keep everything lightweight
 - use team docs as routing/thinking aids
+- best first move for most new assistants
 
 ### Mode 2: Quả Quả + sub-agents
 - Quả Quả stays user-facing
 - specialists run as bounded workers
 - recommended default once delegation starts being useful
+- preferred **AI-first scaling path** for this template
 
 ### Mode 3: Quả Quả + persistent specialists
 - use only when repeated workload justifies more complexity
+- do not start here unless your channel/runtime needs it
 
 ## Step 6: Update workflow docs
 
@@ -118,7 +121,21 @@ Use `TOOLS.md` for setup-specific notes:
 - `memory/YYYY-MM-DD.md` for daily continuity
 - `MEMORY.md` for curated long-term context
 
-## Step 9: Test the setup
+## Step 9: Add the OpenClaw runtime config
+
+If you want the repo to behave as documented, add a real OpenClaw config layer instead of relying on docs alone.
+
+Start here:
+- `~/.openclaw/openclaw.json`
+- [OPENCLAW_SUBAGENT_SETUP.md](OPENCLAW_SUBAGENT_SETUP.md)
+
+AI-first rule of thumb:
+1. configure Quả Quả first
+2. keep specialists as explicit spawn targets
+3. make delegation opt-in and bounded
+4. only add persistent/thread-bound specialists if the workload proves it
+
+## Step 10: Test the setup
 
 ### Minimal test
 1. Start a session with Quả Quả
@@ -130,7 +147,7 @@ Use `TOOLS.md` for setup-specific notes:
 2. Verify delegation stays bounded
 3. Verify Quả Quả synthesizes before replying
 
-## Step 10: Commit your setup
+## Step 11: Commit your setup
 
 ```bash
 git add .
