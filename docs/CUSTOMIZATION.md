@@ -82,6 +82,13 @@ Do not start by adding more steps. Start by clarifying when to:
 - delegate to one specialist
 - split work across specialists
 
+Use these docs together when customizing delegation:
+- [../ORCHESTRATION_WORKFLOW.md](../ORCHESTRATION_WORKFLOW.md)
+- [SUBAGENT_ORGANIZATION.md](SUBAGENT_ORGANIZATION.md)
+- [SUBAGENT_CONTRACTS.md](SUBAGENT_CONTRACTS.md)
+- [OPENCLAW_MULTI_AGENT_CONFIG.md](OPENCLAW_MULTI_AGENT_CONFIG.md)
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](OPENCLAW_MACHINE_CONFIG_EXAMPLE.md)
+
 ### Good workflow edits
 - tighten handoff format
 - define review requirements

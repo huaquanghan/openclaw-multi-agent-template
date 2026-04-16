@@ -125,15 +125,20 @@ Use `TOOLS.md` for setup-specific notes:
 
 If you want the repo to behave as documented, add a real OpenClaw config layer instead of relying on docs alone.
 
-Start here:
+Start here, in this order:
 - `~/.openclaw/openclaw.json`
 - [OPENCLAW_SUBAGENT_SETUP.md](OPENCLAW_SUBAGENT_SETUP.md)
+- [SUBAGENT_ORGANIZATION.md](SUBAGENT_ORGANIZATION.md)
+- [SUBAGENT_CONTRACTS.md](SUBAGENT_CONTRACTS.md)
+- [OPENCLAW_MULTI_AGENT_CONFIG.md](OPENCLAW_MULTI_AGENT_CONFIG.md)
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](OPENCLAW_MACHINE_CONFIG_EXAMPLE.md)
 
 AI-first rule of thumb:
 1. configure Quả Quả first
 2. keep specialists as explicit spawn targets
 3. make delegation opt-in and bounded
-4. only add persistent/thread-bound specialists if the workload proves it
+4. only add persistent or thread-bound specialists if the workload proves it
+5. validate config shape separately from runtime spawn health
 
 ## Step 10: Test the setup
 
@@ -168,9 +173,12 @@ Keep the layering clear:
 
 - Read [CUSTOMIZATION.md](CUSTOMIZATION.md)
 - Read [EXAMPLES.md](EXAMPLES.md)
-- Read [SUBAGENT_PLAYBOOK.md](SUBAGENT_PLAYBOOK.md)
-- Read [KNOWLEDGE_ROUTING.md](KNOWLEDGE_ROUTING.md)
+- Read [SUBAGENT_ORGANIZATION.md](SUBAGENT_ORGANIZATION.md)
+- Read [SUBAGENT_CONTRACTS.md](SUBAGENT_CONTRACTS.md)
 - Read [OPENCLAW_SUBAGENT_SETUP.md](OPENCLAW_SUBAGENT_SETUP.md)
+- Read [OPENCLAW_MULTI_AGENT_CONFIG.md](OPENCLAW_MULTI_AGENT_CONFIG.md)
+- Read [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](OPENCLAW_MACHINE_CONFIG_EXAMPLE.md)
+- Read [KNOWLEDGE_ROUTING.md](KNOWLEDGE_ROUTING.md)
 - Start with real tasks before adding more structure
 
 ## Troubleshooting

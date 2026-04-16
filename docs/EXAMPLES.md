@@ -255,3 +255,11 @@ A structured event where Quả Quả keeps the whole system feeling unified.
 3. Review before delivering.
 4. Let Quả Quả absorb specialist outputs into one final answer.
 5. Add more runtime complexity only after real usage proves it is needed.
+
+## Related docs
+
+- [SUBAGENT_ORGANIZATION.md](SUBAGENT_ORGANIZATION.md)
+- [SUBAGENT_CONTRACTS.md](SUBAGENT_CONTRACTS.md)
+- [OPENCLAW_SUBAGENT_SETUP.md](OPENCLAW_SUBAGENT_SETUP.md)
+- [OPENCLAW_MULTI_AGENT_CONFIG.md](OPENCLAW_MULTI_AGENT_CONFIG.md)
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](OPENCLAW_MACHINE_CONFIG_EXAMPLE.md)

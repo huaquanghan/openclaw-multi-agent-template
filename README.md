@@ -94,13 +94,20 @@ Durable knowledge is optional. The minimal template does not require it.
 
 ## Documentation
 
+### Core flow
 - [SETUP_GUIDE.md](docs/SETUP_GUIDE.md) - detailed setup instructions
+- [ORCHESTRATION_WORKFLOW.md](ORCHESTRATION_WORKFLOW.md) - Quả Quả-led delegation flow
+- [SUBAGENT_ORGANIZATION.md](docs/SUBAGENT_ORGANIZATION.md) - role map, operating patterns, and delegation rules
+- [SUBAGENT_CONTRACTS.md](docs/SUBAGENT_CONTRACTS.md) - practical handoff contracts and spawn-ready prompt skeletons
+- [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - AI-first OpenClaw config and native sub-agent setup
+- [OPENCLAW_MULTI_AGENT_CONFIG.md](docs/OPENCLAW_MULTI_AGENT_CONFIG.md) - copy-paste-ready multi-agent config guidance and validation checklist
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](docs/OPENCLAW_MACHINE_CONFIG_EXAMPLE.md) - machine-shaped production example based on the current live setup
+
+### Supporting docs
 - [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) - how to adapt the template
 - [EXAMPLES.md](docs/EXAMPLES.md) - workflow examples
-- [ORCHESTRATION_WORKFLOW.md](ORCHESTRATION_WORKFLOW.md) - Quả Quả-led delegation flow
 - [SUBAGENT_PLAYBOOK.md](docs/SUBAGENT_PLAYBOOK.md) - practical rules for bounded specialist spawns
 - [KNOWLEDGE_ROUTING.md](docs/KNOWLEDGE_ROUTING.md) - workspace vs memory vs durable knowledge routing
-- [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - AI-first OpenClaw config and native sub-agent setup
 - [QUAQUA_TEAMS_TEMPLATE_SPEC.md](docs/QUAQUA_TEAMS_TEMPLATE_SPEC.md) - target framing for this template
 
 ## File Structure
