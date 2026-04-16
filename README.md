@@ -96,6 +96,9 @@ Durable knowledge is optional. The minimal template does not require it.
 - [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) - how to adapt the template
 - [EXAMPLES.md](docs/EXAMPLES.md) - workflow examples
 - [ORCHESTRATION_WORKFLOW.md](ORCHESTRATION_WORKFLOW.md) - Quả Quả-led delegation flow
+- [SUBAGENT_PLAYBOOK.md](docs/SUBAGENT_PLAYBOOK.md) - practical rules for bounded specialist spawns
+- [KNOWLEDGE_ROUTING.md](docs/KNOWLEDGE_ROUTING.md) - workspace vs memory vs durable knowledge routing
+- [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - native OpenClaw setup for fully sub-agent execution
 - [QUAQUA_TEAMS_TEMPLATE_SPEC.md](docs/QUAQUA_TEAMS_TEMPLATE_SPEC.md) - target framing for this template
 
 ## File Structure

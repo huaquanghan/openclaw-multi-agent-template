@@ -47,6 +47,7 @@ The stop condition matters. It prevents fake confidence and unnecessary wanderin
 
 Sub-agents can hand artifacts or summaries to Quả Quả or to another specialist when the workflow explicitly needs it.
 Default final delivery to the user still belongs to Quả Quả.
+In the OpenClaw runtime model for this repo, Quả Quả should be the one spawning sub-agents when they are needed.
 
 ## Review rule
 

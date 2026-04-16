@@ -151,6 +151,9 @@ Keep the layering clear:
 
 - Read [CUSTOMIZATION.md](CUSTOMIZATION.md)
 - Read [EXAMPLES.md](EXAMPLES.md)
+- Read [SUBAGENT_PLAYBOOK.md](SUBAGENT_PLAYBOOK.md)
+- Read [KNOWLEDGE_ROUTING.md](KNOWLEDGE_ROUTING.md)
+- Read [OPENCLAW_SUBAGENT_SETUP.md](OPENCLAW_SUBAGENT_SETUP.md)
 - Start with real tasks before adding more structure
 
 ## Troubleshooting
