@@ -2,6 +2,11 @@
 
 How to think about **multi-agent** and **orchestrator** design in OpenClaw without overcomplicating the starting architecture.
 
+This document describes the **advanced architecture map** around the repo's default model, which is still:
+
+- Quả Quả as the user-facing orchestrator
+- bounded native sub-agents as the default delegation mechanism
+
 ## Short version
 
 OpenClaw does not have just one kind of orchestrator.

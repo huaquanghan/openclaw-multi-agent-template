@@ -36,11 +36,23 @@ That means:
 ### Mode 2: Quả Quả + sub-agents
 - Quả Quả remains user-facing
 - specialists run as bounded OpenClaw sub-agents
+- this is the default target model for this repo
 - best default when work is parallelizable or needs isolation
 
-### Mode 3: Quả Quả + persistent specialists
-- specialist agents keep longer-lived context or separate channels
-- only use when heavier isolation is truly needed
+## Advanced extensions
+
+These are not the primary framing of this repo.
+Use them later only when the workload proves the need.
+
+### ACP sessions
+- use for persistent coding harness work
+- better than normal sub-agents when session continuity matters
+
+### TaskFlow
+- use for durable jobs that need waiting, resume, or cancel semantics
+
+### Gateway routing
+- use when different channels or peers should belong to different agents from the start
 
 ## Communication standards
 
@@ -114,4 +126,4 @@ To add a new specialist:
 
 Start with **Quả Quả only**.
 Move to **sub-agents** when parallelism, isolation, or specialist depth actually helps.
-Move to **persistent specialists** only when the workload repeatedly proves it is worth the extra complexity.
+Treat ACP, TaskFlow, and routing as later extensions, not the default story of the repo.

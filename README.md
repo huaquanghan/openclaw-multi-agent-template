@@ -8,13 +8,8 @@ This repository is a reusable base for creating more assistants in the **Quả Q
 
 The core idea is simple:
 - **Quả Quả** is the main identity and user-facing orchestrator
-- **teams** are modular capability layers that can stay lightweight at first
-- delegation can later be implemented with **OpenClaw sub-agents**, **ACP harness sessions**, **TaskFlow-managed work**, persistent specialists, or channel-specific routing
-
-This means the template works in three modes:
-1. **Quả Quả only**
-2. **Quả Quả + sub-agents**
-3. **Quả Quả + persistent specialist agents**
+- **teams** are modular capability layers that become useful through bounded delegation
+- the default runtime model is **Quả Quả + native OpenClaw sub-agents**
 
 Recommended default: start **AI-first** with one strong Quả Quả runtime, then add native OpenClaw sub-agents only when real workload justifies them.
 
@@ -22,23 +17,23 @@ If the workload later grows, the practical escalation path is:
 
 1. Quả Quả only
 2. Quả Quả + bounded sub-agents
-3. Quả Quả + ACP sessions for persistent coding work
-4. TaskFlow-managed jobs for durable orchestration
-5. gateway-routed multi-agent ownership where isolation is truly worth it
+3. optional ACP sessions for persistent coding work
+4. optional TaskFlow-managed jobs for durable orchestration
+5. optional gateway-routed multi-agent ownership where isolation is truly worth it
 
 ## What this template is for
 
 Use this repo when you want:
 - one warm, coherent assistant identity at the center
-- a clean path from single-agent to team-based orchestration
+- a clean path from one orchestrator to bounded specialist delegation
 - practical workflow docs, handoff rules, and memory habits
 - optional long-term knowledge layering with systems like GBrain
 
 ## Features
 
 - 🍑 **Identity-first design** - the assistant feels like a real consistent helper, not just a router
-- 🧩 **Modular teams** - specialist roles can stay as docs or become real sub-agents later
-- 🔄 **Quả Quả-led orchestration** - bounded delegation, review, synthesis, final delivery
+- 🧩 **Modular teams** - specialist roles stay lightweight until real delegated work is needed
+- 🔄 **Quả Quả-led orchestration** - bounded sub-agent delegation, review, synthesis, final delivery
 - 🧠 **Layered memory model** - workspace, memory files, and optional durable knowledge layer
 - 🛠️ **Replication-friendly** - fork this base to spin up another Quả Quả cleanly
 
@@ -75,7 +70,7 @@ Edit `agents/` only as much as you need:
 
 - **Minimal:** Quả Quả does most work directly
 - **Sub-agent mode:** Quả Quả delegates bounded tasks to OpenClaw sub-agents
-- **Persistent mode:** specialists get longer-lived contexts or separate channels
+- **Advanced extensions:** ACP, TaskFlow, or routing only when the workload proves the need
 
 ### 6. Start with the orchestration workflow
 
@@ -108,7 +103,7 @@ Durable knowledge is optional. The minimal template does not require it.
 - [SUBAGENT_ORGANIZATION.md](docs/SUBAGENT_ORGANIZATION.md) - role map, operating patterns, and delegation rules
 - [SUBAGENT_CONTRACTS.md](docs/SUBAGENT_CONTRACTS.md) - practical handoff contracts and spawn-ready prompt skeletons
 - [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - AI-first OpenClaw config and native sub-agent setup
-- [OPENCLAW_ORCHESTRATION_LAYERS.md](docs/OPENCLAW_ORCHESTRATION_LAYERS.md) - when to use gateway routing, sub-agents, ACP sessions, and TaskFlow
+- [OPENCLAW_ORCHESTRATION_LAYERS.md](docs/OPENCLAW_ORCHESTRATION_LAYERS.md) - advanced architecture map beyond the default orchestrator + sub-agents model
 - [OPENCLAW_MULTI_AGENT_CONFIG.md](docs/OPENCLAW_MULTI_AGENT_CONFIG.md) - copy-paste-ready multi-agent config guidance and validation checklist
 - [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](docs/OPENCLAW_MACHINE_CONFIG_EXAMPLE.md) - machine-shaped production example based on the current live setup
 

@@ -4,10 +4,9 @@ Complete guide to setting up your **Quả Quả + Teams** OpenClaw template.
 
 ## What you are setting up
 
-This template supports three modes:
-1. **Quả Quả only**
-2. **Quả Quả + sub-agents**
-3. **Quả Quả + persistent specialists**
+This template is centered on one default runtime story:
+1. **Quả Quả only** as the minimal starting point
+2. **Quả Quả + sub-agents** as the default orchestrator model
 
 Start simple. You can add more orchestration later.
 
@@ -83,9 +82,12 @@ For each specialist in `agents/`:
 - recommended default once delegation starts being useful
 - preferred **AI-first scaling path** for this template
 
-### Mode 3: Quả Quả + persistent specialists
-- use only when repeated workload justifies more complexity
-- do not start here unless your channel/runtime needs it
+### Advanced extensions
+- ACP sessions for persistent coding work
+- TaskFlow for durable multi-step jobs
+- gateway routing for separate inbound ownership
+
+These are follow-on extensions, not the default template framing.
 
 ## Step 6: Update workflow docs
 

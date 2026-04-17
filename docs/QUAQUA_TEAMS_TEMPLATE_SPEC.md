@@ -8,7 +8,7 @@ The target is not just “an orchestrator with helpers”. The target is a reusa
 
 - **Quả Quả** as the central identity and orchestrator
 - **teams** as the extension layer for specialist work
-- optional implementation via sub-agents, persistent agents, or channel routing depending on the deployment
+- default implementation via **bounded native sub-agents**, with heavier runtime patterns added only when needed
 
 ## Core framing
 
@@ -35,11 +35,11 @@ Examples:
 - Ops team
 - Design / content team
 
-Each team may be implemented in different ways:
+Each team may be implemented in different ways, but the default implementation target for this repo is native sub-agents:
 
 - as lightweight role docs only
 - as OpenClaw sub-agents for bounded tasks
-- as persistent specialist agents for heavier setups
+- as advanced extensions such as ACP sessions or routed specialists for heavier setups
 
 The framing should stay stable even when the runtime implementation changes.
 
@@ -149,10 +149,13 @@ The same Quả Quả + Teams framing can run in multiple modes:
 - Quả Quả remains user-facing
 - specialists run as bounded workers
 
-### Mode 3: Quả Quả + persistent team agents
+This is the primary runtime target for the template.
 
-- specialist agents have their own channels or long-lived contexts
-- useful when stronger isolation is needed
+## Advanced runtime extensions
+
+- ACP sessions for persistent coding-harness continuity
+- TaskFlow for durable wait/resume orchestration
+- routed specialists for deployments that truly need separate inbound ownership
 
 ## File map changes planned from this spec
 
