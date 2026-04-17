@@ -18,6 +18,14 @@ This means the template works in three modes:
 
 Recommended default: start **AI-first** with one strong Quả Quả runtime, then add native OpenClaw sub-agents only when real workload justifies them.
 
+If the workload later grows, the practical escalation path is:
+
+1. Quả Quả only
+2. Quả Quả + bounded sub-agents
+3. Quả Quả + ACP sessions for persistent coding work
+4. TaskFlow-managed jobs for durable orchestration
+5. gateway-routed multi-agent ownership where isolation is truly worth it
+
 ## What this template is for
 
 Use this repo when you want:

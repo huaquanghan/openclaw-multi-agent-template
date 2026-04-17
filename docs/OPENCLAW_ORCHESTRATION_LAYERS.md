@@ -157,6 +157,8 @@ If you are not sure which layer to use:
 
 ## Architecture diagram
 
+### Simple text view
+
 ```text
 Channels / Input
         |
@@ -178,6 +180,32 @@ OpenClaw Gateway
         v
  Final synthesis and user delivery
 ```
+
+### Mermaid view
+
+```mermaid
+flowchart TD
+    A[Channels / Input] --> B[OpenClaw Gateway\nrouting / sessions / policies]
+    B --> C[Main Agent\nuser-facing orchestrator]
+    B --> D[Routed Specialist Agent\nseparate ownership path]
+    C --> E[Sub-agents\nvia sessions_spawn]
+    C --> F[ACP Session\npersistent coding harness]
+    C --> G[TaskFlow\ndurable wait/resume orchestration]
+    E --> H[Final synthesis and user delivery]
+    F --> H
+    G --> H
+    C --> H
+```
+
+## Decision table
+
+| Need | Best starting layer |
+|---|---|
+| One assistant should answer directly | Main agent only |
+| Bounded parallel research or implementation | Sub-agents |
+| Persistent coding thread or harness session | ACP |
+| Long-running job with waiting/resume/cancel | TaskFlow |
+| Different channels should belong to different agents | Gateway routing |
 
 ## Why this repo stays conservative by default
 

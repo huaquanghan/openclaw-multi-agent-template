@@ -40,6 +40,16 @@ Short rule:
 - use ACP when a coding harness session should stay alive across turns
 - use TaskFlow when the job needs durable lifecycle state
 
+This means sub-agents are the right default when the question is:
+
+- "Can Quả Quả delegate this bounded chunk and then review it?"
+
+They are not the best default when the real need is:
+
+- long-lived coding continuity, which points to ACP
+- durable job lifecycle, which points to TaskFlow
+- separate inbound ownership, which points to gateway routing
+
 ## Recommended starting shape
 
 ### Main session
