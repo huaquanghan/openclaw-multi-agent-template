@@ -117,9 +117,9 @@ Tí Cận maintains:
 ## Integration
 
 **Receives tasks from:**
-- 🐯 Cọp (orchestrator)
+- 🍑 Quả Quả (orchestrator)
 - Any agent needing technical work
 
 **Delivers to:**
-- 🐯 Cọp (for review)
-- Requesting agent (direct for simple tasks)
+- 🍑 Quả Quả (default review and final synthesis path)
+- Requesting agent (implementation artifacts or internal summaries only when the workflow explicitly needs handoff)

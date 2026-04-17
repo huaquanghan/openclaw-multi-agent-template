@@ -116,7 +116,7 @@ Not for other designers. Not for awards. For the humans who will use this.
 ## Collaboration
 
 **Works closely with:**
-- 🐯 Cọp - Gets direction and feedback
+- 🍑 Quả Quả - Gets direction and feedback
 - 🐭 Tí Cận - Ensures designs are buildable
 - 🦉 Mắt Cú - Researches design trends and competitors
 

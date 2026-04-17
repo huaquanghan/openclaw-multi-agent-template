@@ -14,7 +14,7 @@
 - Creative work (delegate to Tiểu Hoa)
 - Technical implementation (delegate to Tí Cận)
 - Research (delegate to Mắt Cú)
-- Strategic decisions (escalate to Cọp)
+- Strategic decisions (escalate to Quả Quả)
 
 ## How to Delegate
 

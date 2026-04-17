@@ -1,301 +1,186 @@
 # Customization Guide
 
-How to customize this template for your specific needs.
+How to customize this template without losing the **Quả Quả + Teams** structure.
 
 ## Table of Contents
 
-1. [Adding New Agents](#adding-new-agents)
-2. [Modifying Workflows](#modifying-workflows)
-3. [Custom Tools](#custom-tools)
-4. [Changing Team Structure](#changing-team-structure)
-5. [Advanced Configuration](#advanced-configuration)
+1. [Customize the core identity](#customize-the-core-identity)
+2. [Customize teams](#customize-teams)
+3. [Modify workflows](#modify-workflows)
+4. [Tools and local setup](#tools-and-local-setup)
+5. [Knowledge and memory layers](#knowledge-and-memory-layers)
+6. [Advanced structure](#advanced-structure)
 
-## Adding New Agents
+## Customize the core identity
 
-To add a new agent to your team:
+The most important customization is the root identity layer:
+- `SOUL.md`
+- `IDENTITY.md`
+- `USER.md`
+- `AGENTS.md`
 
-### 1. Create Agent Directory
+If these files are weak or inconsistent, the whole template feels generic.
+
+### Good rule
+Make Quả Quả feel like one coherent assistant first. Only then expand team complexity.
+
+## Customize teams
+
+Each team folder in `agents/` is a capability pack.
+
+### To add a new specialist
 
 ```bash
-mkdir -p agents/new-agent-name
-touch agents/new-agent-name/{SOUL.md,USAGE.md,CONFIG.md}
+mkdir -p agents/new-specialist
+touch agents/new-specialist/{SOUL.md,USAGE.md,CONFIG.md,IDENTITY.md}
 ```
 
-### 2. Write SOUL.md
+### What each file should do
 
-Define the agent's personality:
+#### `SOUL.md`
+Define the specialist's working personality.
+
+#### `USAGE.md`
+Explain when Quả Quả should call this specialist.
+
+#### `CONFIG.md`
+Keep runtime notes, constraints, and technical preferences.
+
+#### `IDENTITY.md`
+Keep quick metadata for roster readability.
+
+### Example specialist
 
 ```markdown
-# SOUL.md - Agent Name
-
-**Name:** [Name]
-**Creature:** [What they are]
-**Emoji:** [Emoji]
-**Role:** [Their role]
-
-## Personality
-[Define traits, communication style]
-
-## Responsibilities
-[What they do]
-
-## When to Escalate
-[When to ask for help]
-```
-
-### 3. Write USAGE.md
-
-Document how to use the agent:
-
-```markdown
-# USAGE.md - How to Use [Agent]
-
-## When to Call
-[Appropriate tasks]
-
-## How to Delegate
-[Delegation format]
-
-## Example Requests
-[Sample prompts]
-```
-
-### 4. Write CONFIG.md
-
-Set technical configuration:
-
-```markdown
-# CONFIG.md - [Agent] Configuration
-
-## Settings
-```yaml
-name: [Name]
-role: [Role]
-emoji: [Emoji]
-```
-
-## Capabilities
-- [Capability 1]
-- [Capability 2]
-```
-
-### 5. Update Team Documentation
-
-Add the new agent to:
-- `AGENTS.md` - Team roster
-- `ORCHESTRATION_WORKFLOW.md` - Decision matrix
-
-## Modifying Workflows
-
-### Changing the Orchestration Flow
-
-Edit `ORCHESTRATION_WORKFLOW.md`:
-
-1. Modify the workflow diagram
-2. Update step descriptions
-3. Adjust the decision matrix
-4. Add/remove communication patterns
-
-### Custom Task Patterns
-
-Add your own patterns:
-
-```markdown
-## My Custom Pattern
-
-1. **Step 1** - [Description]
-2. **Step 2** - [Description]
-3. **Step 3** - [Description]
-
-### When to Use
-[Appropriate scenarios]
-
-### Example
-[Concrete example]
-```
-
-## Custom Tools
-
-### Adding Tool Documentation
-
-Update `TOOLS.md` with your tools:
-
-```markdown
-### [Tool Name]
-
-**Purpose:** [What it does]
-**Usage:** [How to use it]
-**Notes:** [Important details]
-```
-
-### Agent-Specific Tools
-
-Add to agent's `CONFIG.md`:
-
-```markdown
-## Tools
-
-### [Tool Name]
-- Command: [How to invoke]
-- Config: [Configuration]
-```
-
-## Changing Team Structure
-
-### Removing Agents
-
-1. Delete the agent's folder: `rm -rf agents/agent-name/`
-2. Remove from `AGENTS.md`
-3. Update `ORCHESTRATION_WORKFLOW.md` decision matrix
-4. Commit changes
-
-### Renaming Agents
-
-1. Rename folder: `mv agents/old-name agents/new-name`
-2. Update all references in documentation
-3. Update `AGENTS.md`
-4. Update `ORCHESTRATION_WORKFLOW.md`
-
-### Changing Roles
-
-1. Edit the agent's `SOUL.md`
-2. Update responsibilities
-3. Update `USAGE.md` with new capabilities
-4. Update team documentation
-
-## Advanced Configuration
-
-### Custom Response Formats
-
-Define custom formats in agent's `CONFIG.md`:
-
-```markdown
-## Output Formats
-
-### My Custom Format
-```
-[Template]
-```
-```
-
-### Integration Settings
-
-Configure external integrations:
-
-```markdown
-## Integrations
-
-### [Service]
-```yaml
-enabled: true
-api_key: ${ENV_VAR}
-settings:
-  option: value
-```
-```
-
-### Memory Management
-
-Customize memory behavior:
-
-```markdown
-## Memory
-
-### Daily Notes
-- Location: `memory/`
-- Format: [Your format]
-- Retention: [How long to keep]
-
-### Long-term
-- Location: `MEMORY.md`
-- Update frequency: [How often]
-```
-
-## Theming
-
-### Visual Identity
-
-Customize the team's visual identity:
-
-1. Create `assets/` folder
-2. Add logos, avatars, etc.
-3. Reference in `IDENTITY.md`
-4. Update agent emojis if desired
-
-### Documentation Style
-
-Make the docs your own:
-
-- Change color references
-- Update examples to match your domain
-- Add your own best practices
-- Include your own templates
-
-## Best Practices
-
-### Keep It Simple
-- Don't over-engineer
-- Start with defaults
-- Add complexity only when needed
-
-### Document Changes
-- Update docs when you customize
-- Note why you made changes
-- Keep a changelog
-
-### Test Iteratively
-- Make small changes
-- Test thoroughly
-- Adjust based on results
-
-### Share Learnings
-- Document what works
-- Note what doesn't
-- Help others learn from your experience
-
-## Examples
-
-### Example: Adding a Data Analyst Agent
-
-```bash
-mkdir -p agents/data-whiz
-cat > agents/data-whiz/SOUL.md << 'EOF'
 # SOUL.md - Data Whiz
 
 **Name:** Data Whiz
-**Creature:** Fox - clever, analytical
+**Creature:** Fox
 **Emoji:** 🦊
-**Role:** Data analyst, insights generator
-...
-EOF
+**Role:** Data analysis and insights
+
+## Responsibilities
+- analyze datasets
+- summarize findings
+- suggest follow-up questions
+
+## Escalation
+- ambiguous metrics
+- low confidence data quality
+- business decisions requiring user judgment
 ```
 
-### Example: Custom Workflow for Content Creation
+Then update:
+- `AGENTS.md`
+- `ORCHESTRATION_WORKFLOW.md`
+
+## Modify workflows
+
+### Default stance
+Do not start by adding more steps. Start by clarifying when to:
+- do work directly
+- delegate to one specialist
+- split work across specialists
+
+Use these docs together when customizing delegation:
+- [../ORCHESTRATION_WORKFLOW.md](../ORCHESTRATION_WORKFLOW.md)
+- [SUBAGENT_ORGANIZATION.md](SUBAGENT_ORGANIZATION.md)
+- [SUBAGENT_CONTRACTS.md](SUBAGENT_CONTRACTS.md)
+- [OPENCLAW_MULTI_AGENT_CONFIG.md](OPENCLAW_MULTI_AGENT_CONFIG.md)
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](OPENCLAW_MACHINE_CONFIG_EXAMPLE.md)
+
+### Good workflow edits
+- tighten handoff format
+- define review requirements
+- add escalation triggers
+- reduce unnecessary parallelism
+
+### Example custom pattern
+
+```markdown
+## Research -> Build -> Review
+
+1. Mắt Cú researches sources and constraints
+2. Tí Cận implements based on that summary
+3. Quả Quả reviews and synthesizes final output
+```
+
+### Example content flow
 
 ```markdown
 ## Content Creation Workflow
 
 1. **Research** (🦉 Mắt Cú)
-   - Topic research
-   - Competitor analysis
-   
-2. **Outline** (🐯 Cọp)
-   - Structure content
-   - Assign sections
-   
+2. **Outline** (🍑 Quả Quả)
 3. **Draft** (🐭 Tí Cận)
-   - Write content
-   - Add code examples
-   
 4. **Visuals** (🦋 Tiểu Hoa)
-   - Create diagrams
-   - Design graphics
-   
-5. **Review** (🐯 Cọp)
-   - Final edit
-   - Publish
+5. **Review** (🍑 Quả Quả)
 ```
+
+## Tools and local setup
+
+Use `TOOLS.md` for environment-specific notes only.
+
+Examples:
+- SSH hosts
+- preferred services
+- TTS voices
+- local aliases
+- internal naming conventions
+
+Do not turn `TOOLS.md` into a general manual.
+
+## Knowledge and memory layers
+
+This template works best when the layers stay separate:
+
+### Workspace
+For active execution, drafts, checklists, and temporary project state.
+
+### Memory files
+For continuity, habits, and personal context.
+
+### Durable knowledge layer
+Optional, for systems like GBrain when you want separate long-term searchable knowledge.
+
+### Good customization rule
+If something is still changing every day, keep it in workspace or daily memory first.
+Only promote it when it becomes reusable and stable.
+
+## Advanced structure
+
+### Remove teams
+If you want a simpler setup:
+1. keep Quả Quả as the only active runtime
+2. leave team docs as optional references
+3. simplify the workflow docs accordingly
+
+### Rename teams
+If the names do not fit your assistant:
+1. rename the agent folder
+2. update references in docs
+3. keep responsibilities clearer than branding
+
+### Add persistent specialists
+Only do this when:
+- repeated workload clearly justifies it
+- isolation matters
+- you are ready to manage more operational complexity
+
+## Best practices
+
+### Keep it simple
+Start with one strong assistant voice.
+
+### Delegate with intent
+Sub-agents should exist because they help, not because they look impressive.
+
+### Document why
+When you change structure, note why the change helps.
+
+### Test with real tasks
+Use the template on actual work before adding more ceremony.
 
 ---
 
-Remember: This template is a starting point. Make it yours!
+This template is meant to be shaped. Just keep the center of gravity clear: **Quả Quả first, teams second**.

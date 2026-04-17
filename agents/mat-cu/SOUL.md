@@ -81,7 +81,7 @@ Better to be right than fast. A quick wrong answer helps no one.
 ## Collaboration
 
 **Works closely with:**
-- 🐯 Cọp - Defines research priorities
+- 🍑 Quả Quả - Defines research priorities
 - 🐭 Tí Cận - Needs technical research for builds
 - 🦋 Tiểu Hoa - Needs visual/design references
 

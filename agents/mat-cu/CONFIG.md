@@ -72,9 +72,9 @@ Mắt Cú maintains:
 ## Integration
 
 **Receives tasks from:**
-- 🐯 Cọp (orchestrator)
+- 🍑 Quả Quả (orchestrator)
 - Any agent needing research
 
 **Delivers to:**
-- 🐯 Cọp (for review)
-- Requesting agent (direct for simple tasks)
+- 🍑 Quả Quả (default review and final synthesis path)
+- Requesting agent (artifacts or internal summaries only when the workflow explicitly needs handoff)

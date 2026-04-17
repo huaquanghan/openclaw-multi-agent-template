@@ -24,6 +24,14 @@ tmp/
 temp/
 .cache/
 
+# Cached context and generated artifacts
+.context/*
+!.context/README.md
+shared/*
+!shared/README.md
+assets/*
+!assets/.gitkeep
+
 # Environment
 .env
 .env.local

@@ -1,6 +1,6 @@
 # Examples
 
-Real-world workflow examples for common scenarios.
+Real-world workflow examples for the **Quả Quả + Teams** template.
 
 ## Table of Contents
 
@@ -20,217 +20,151 @@ Build a landing page for a new product.
 
 ### Workflow
 
-**🐯 Cọp:** 
-> Team, we need to build a landing page for our new app "TaskMaster". 
-> Timeline: 3 days. Let's break this down.
+**🍑 Quả Quả:**
+> We need a landing page for our new app.
+> I will split research, design, and build, then review before delivery.
 
 **Phase 1: Research** (🦉 Mắt Cú)
-```
-Mắt Cú, research landing page best practices for SaaS products.
-Focus on: conversion optimization, layout patterns, copy strategies.
-Also check 3-5 competitor landing pages and summarize what works.
+```text
+Research landing page best practices for SaaS products.
+Focus on conversion, layout patterns, copy strategy, and 3 to 5 competitors.
+Deliver a concise summary with references.
 ```
 
 **Phase 2: Design** (🦋 Tiểu Hoa)
-```
-Tiểu Hoa, design the landing page based on Mắt Cú's research.
-
-Sections needed:
-1. Hero with app screenshot
-2. Features (3 cards)
-3. Testimonials
-4. Pricing
-5. CTA
-6. Footer
-
-Style: Modern, clean, trustworthy
-Colors: Blue primary, white background
+```text
+Create a landing page concept based on the research.
+Sections: hero, features, testimonials, pricing, CTA, footer.
+Style: clean and trustworthy.
 ```
 
 **Phase 3: Build** (🐭 Tí Cận)
-```
-Tí Cận, build the landing page based on Tiểu Hoa's design.
-
-Tech: HTML, CSS, vanilla JS
-Requirements:
-- Responsive (mobile-first)
-- Fast loading
-- Accessible
-- Contact form with validation
-
-Assets: [Design files from Tiểu Hoa]
+```text
+Build the page from the approved direction.
+Requirements: responsive, accessible, fast, simple deployment.
 ```
 
-**Phase 4: Review** (🐯 Cọp)
-```
-Review the implementation, test on different devices, approve for deployment.
+**Phase 4: Review** (🍑 Quả Quả)
+```text
+Review the implementation, check consistency, and prepare the final delivery.
 ```
 
 ### Result
-Complete landing page ready for deployment.
+A finished landing page with one clear orchestrator voice over the whole workflow.
 
 ---
 
 ## Research Report
 
 ### Scenario
-Create a comprehensive report on a new technology trend.
+Create a report on a new technology trend.
 
 ### Workflow
 
-**🐯 Cọp:**
-> We need a report on "AI agents in 2024" for the leadership team.
-> Due: End of week.
+**🍑 Quả Quả:**
+> We need a report on AI agents.
+> Research first, then analysis, then packaging.
 
 **Phase 1: Deep Research** (🦉 Mắt Cú)
-```
-Mắt Cú, research AI agents landscape in 2024.
-
-Areas to cover:
-1. Market size and growth
-2. Key players (companies, products)
-3. Technology trends
-4. Use cases by industry
-5. Challenges and limitations
-6. Future predictions
-
-Deliver: Comprehensive research document with sources.
+```text
+Cover market size, key players, technology trends, use cases, limitations, and near-term outlook.
+Return a source-backed summary.
 ```
 
-**Phase 2: Analysis** (🐯 Cọp)
-```
-Review research, identify key insights, structure the report.
-```
-
-**Phase 3: Visual Design** (🦋 Tiểu Hoa)
-```
-Tiểu Hoa, create visuals for the report:
-- Market size chart
-- Competitive landscape diagram
-- Timeline of key events
-- Infographic summarizing key findings
+**Phase 2: Analysis** (🍑 Quả Quả)
+```text
+Extract the key insights, shape the narrative, decide what matters to the audience.
 ```
 
-**Phase 4: Assembly** (🐭 Tí Cận)
+**Phase 3: Visuals** (🦋 Tiểu Hoa)
+```text
+Create charts, diagrams, or one-page summary visuals.
 ```
-Tí Cận, assemble the final report:
-- Format: PDF and web version
-- Include all visuals
-- Add interactive elements if possible
-- Ensure professional formatting
+
+**Phase 4: Packaging** (🐭 Tí Cận)
+```text
+Assemble the final report in the required format.
 ```
 
 ### Result
-Polished research report with executive summary.
+A polished report with clearer thinking than a single raw research dump.
 
 ---
 
 ## Product Launch
 
 ### Scenario
-Launch a new feature with coordinated team effort.
+Launch a new feature with coordinated support work.
 
 ### Workflow
 
-**🐯 Cọp:**
-> We're launching the new Dashboard feature next Monday.
-> Coordinate all launch activities.
+**🍑 Quả Quả:**
+> We are launching a feature next week.
+> We will keep coordination centralized and parallelize only the useful parts.
 
-**Parallel Tasks:**
-
-**🐱 Tiểu Mỉ - Project Management:**
-```
-Create launch checklist:
-- [ ] Code complete (Friday)
-- [ ] QA complete (Saturday)
-- [ ] Documentation updated (Sunday)
-- [ ] Marketing materials ready (Sunday)
-- [ ] Launch announcement (Monday 9 AM)
-
-Set reminders for each milestone.
+**🐱 Tiểu Mỉ - Coordination**
+```text
+Create the launch checklist, milestones, reminders, and follow-up structure.
 ```
 
-**🐭 Tí Cận - Technical:**
-```
-- Final code review
-- Deploy to production
-- Monitor error rates
-- Prepare rollback plan
+**🐭 Tí Cận - Technical**
+```text
+Final review, deploy plan, monitoring checklist, rollback plan.
 ```
 
-**🦋 Tiểu Hoa - Marketing:**
-```
-Create launch assets:
-- Social media graphics
-- Email announcement template
-- Blog post header image
-- Feature screenshot highlights
+**🦋 Tiểu Hoa - Launch assets**
+```text
+Prepare graphics, screenshots, and visual support materials.
 ```
 
-**🦉 Mắt Cú - Competitive:**
-```
-Monitor competitor reactions and news during launch week.
-Report any significant developments.
+**🦉 Mắt Cú - Monitoring**
+```text
+Track competitor movement, user feedback patterns, and noteworthy external signals.
 ```
 
-**🐯 Cọp - Coordination:**
-```
-Daily standups, remove blockers, ensure alignment.
+**🍑 Quả Quả - Synthesis**
+```text
+Review readiness, remove blockers, and deliver the launch summary.
 ```
 
 ### Result
-Successful coordinated launch.
+A coordinated launch without making the user manage every specialist directly.
 
 ---
 
 ## Bug Fix
 
 ### Scenario
-Critical bug reported in production.
+A critical production issue needs fast response.
 
 ### Workflow
 
-**🐯 Cọp:**
-> We have a critical bug: users can't save their work.
-> Tí Cận, investigate immediately. Others on standby.
+**🍑 Quả Quả:**
+> Critical bug, users cannot save work.
+> Tí Cận investigates first. Others stay scoped unless needed.
 
 **Phase 1: Investigation** (🐭 Tí Cận)
-```
-Tí Cận:
-1. Reproduce the bug
-2. Check recent deployments
-3. Review error logs
-4. Identify root cause
-5. Estimate fix time
-
-Report back within 30 minutes.
+```text
+Reproduce the issue, inspect logs, identify root cause, estimate fix time.
 ```
 
 **Phase 2: Fix** (🐭 Tí Cận)
-```
-Implement fix, test locally, prepare PR.
-```
-
-**Phase 3: Review** (🐯 Cọp)
-```
-Review the fix, approve for deployment.
+```text
+Implement the fix and verify it.
 ```
 
-**Phase 4: Deploy** (🐭 Tí Cận)
-```
-Deploy fix, monitor for 1 hour, confirm resolution.
+**Phase 3: Review** (🍑 Quả Quả)
+```text
+Review the result and decide if more validation is needed.
 ```
 
-**Phase 5: Documentation** (🦉 Mắt Cú)
-```
-Document what happened:
-- Root cause
-- Fix applied
-- Prevention measures
+**Phase 4: Documentation** (🦉 Mắt Cú)
+```text
+Document root cause, fix, and prevention notes.
 ```
 
 ### Result
-Bug fixed and documented.
+Fast resolution with clear ownership and a clean final report.
 
 ---
 
@@ -241,52 +175,36 @@ Create a blog post with supporting visuals.
 
 ### Workflow
 
-**🐯 Cọp:**
-> Write a blog post about "Getting Started with OpenClaw".
-> Target audience: Developers new to the platform.
+**🍑 Quả Quả:**
+> We are writing a getting-started post for new developers.
 
 **Phase 1: Research** (🦉 Mắt Cú)
-```
-Research:
-- Common pain points for beginners
-- What documentation exists
-- Successful getting-started guides from other tools
-- Keywords for SEO
+```text
+Find common beginner questions, documentation gaps, and useful comparable guides.
 ```
 
-**Phase 2: Outline** (🐯 Cọp)
-```
-Structure:
-1. Introduction (why OpenClaw)
-2. Installation
-3. First agent setup
-4. First task delegation
-5. Tips for success
-6. Next steps
+**Phase 2: Outline** (🍑 Quả Quả)
+```text
+Shape the structure, key message, and target reader path.
 ```
 
 **Phase 3: Draft** (🐭 Tí Cận)
-```
-Write the content with code examples.
-Include working commands and configurations.
+```text
+Write the content with working commands and concrete examples.
 ```
 
 **Phase 4: Visuals** (🦋 Tiểu Hoa)
-```
-Create:
-- Header image
-- Diagram showing agent workflow
-- Screenshot annotations
-- Social sharing card
+```text
+Create diagrams, screenshots, and simple supporting graphics.
 ```
 
-**Phase 5: Review & Publish** (🐯 Cọp)
-```
-Edit for clarity, publish, promote.
+**Phase 5: Review & Publish** (🍑 Quả Quả)
+```text
+Edit for clarity, ensure one consistent voice, then publish.
 ```
 
 ### Result
-Published blog post with visuals.
+A more coherent post than if multiple specialists had published their own fragments.
 
 ---
 
@@ -297,62 +215,51 @@ Plan and execute a team workshop.
 
 ### Workflow
 
-**🐯 Cọp:**
-> Plan a 2-hour team workshop on "Improving Our Workflow".
-> Date: Next Friday afternoon.
+**🍑 Quả Quả:**
+> Plan a 2-hour workshop and keep logistics, research, visuals, and facilitation aligned.
 
-**🐱 Tiểu Mỉ - Logistics:**
-```
-- Check calendar for conflicts
-- Book meeting room (or set up video call)
-- Send calendar invites
-- Create agenda document
-- Set up pre-work assignment
+**🐱 Tiểu Mỉ - Logistics**
+```text
+Handle scheduling, agenda, reminders, and attendee coordination.
 ```
 
-**🦉 Mắt Cú - Research:**
-```
-Research:
-- Workshop facilitation best practices
-- Activities for process improvement
-- Case studies from other teams
+**🦉 Mắt Cú - Research**
+```text
+Prepare facilitation methods, activity ideas, and supporting references.
 ```
 
-**🦋 Tiểu Hoa - Materials:**
-```
-Create:
-- Workshop slides
-- Activity worksheets
-- Miro/FigJam template
-- Post-workshop survey
+**🦋 Tiểu Hoa - Materials**
+```text
+Create slides, templates, worksheets, and visual aids.
 ```
 
-**🐭 Tí Cận - Tech:**
-```
-- Set up video conferencing
-- Test screen sharing
-- Prepare demo environment
-- Create feedback form
+**🐭 Tí Cận - Technical setup**
+```text
+Prepare conferencing, collaborative tools, and any demo environment.
 ```
 
-**🐯 Cọp - Facilitation:**
-```
-Run the workshop, document outcomes, assign follow-ups.
+**🍑 Quả Quả - Facilitation**
+```text
+Run the workshop, summarize outcomes, and assign follow-ups.
 ```
 
 ### Result
-Successful workshop with documented outcomes.
+A structured event where Quả Quả keeps the whole system feeling unified.
 
 ---
 
 ## Tips for Success
 
-1. **Start Simple** - Don't try to coordinate everything at once
-2. **Clear Handoffs** - Make sure each agent knows what they're receiving
-3. **Check In** - Regular status updates prevent surprises
-4. **Document** - Note what worked for future reference
-5. **Iterate** - Improve the workflow based on experience
+1. Start with direct execution unless delegation clearly helps.
+2. Keep handoffs short and scoped.
+3. Review before delivering.
+4. Let Quả Quả absorb specialist outputs into one final answer.
+5. Add more runtime complexity only after real usage proves it is needed.
 
-## Your Examples
+## Related docs
 
-Add your own workflow examples here as you discover what works for your team!
+- [SUBAGENT_ORGANIZATION.md](SUBAGENT_ORGANIZATION.md)
+- [SUBAGENT_CONTRACTS.md](SUBAGENT_CONTRACTS.md)
+- [OPENCLAW_SUBAGENT_SETUP.md](OPENCLAW_SUBAGENT_SETUP.md)
+- [OPENCLAW_MULTI_AGENT_CONFIG.md](OPENCLAW_MULTI_AGENT_CONFIG.md)
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](OPENCLAW_MACHINE_CONFIG_EXAMPLE.md)
