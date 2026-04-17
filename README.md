@@ -9,7 +9,7 @@ This repository is a reusable base for creating more assistants in the **Quả Q
 The core idea is simple:
 - **Quả Quả** is the main identity and user-facing orchestrator
 - **teams** are modular capability layers that can stay lightweight at first
-- delegation can later be implemented with **OpenClaw sub-agents**, persistent specialists, or channel-specific routing
+- delegation can later be implemented with **OpenClaw sub-agents**, **ACP harness sessions**, **TaskFlow-managed work**, persistent specialists, or channel-specific routing
 
 This means the template works in three modes:
 1. **Quả Quả only**
@@ -100,6 +100,7 @@ Durable knowledge is optional. The minimal template does not require it.
 - [SUBAGENT_ORGANIZATION.md](docs/SUBAGENT_ORGANIZATION.md) - role map, operating patterns, and delegation rules
 - [SUBAGENT_CONTRACTS.md](docs/SUBAGENT_CONTRACTS.md) - practical handoff contracts and spawn-ready prompt skeletons
 - [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - AI-first OpenClaw config and native sub-agent setup
+- [OPENCLAW_ORCHESTRATION_LAYERS.md](docs/OPENCLAW_ORCHESTRATION_LAYERS.md) - when to use gateway routing, sub-agents, ACP sessions, and TaskFlow
 - [OPENCLAW_MULTI_AGENT_CONFIG.md](docs/OPENCLAW_MULTI_AGENT_CONFIG.md) - copy-paste-ready multi-agent config guidance and validation checklist
 - [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](docs/OPENCLAW_MACHINE_CONFIG_EXAMPLE.md) - machine-shaped production example based on the current live setup
 

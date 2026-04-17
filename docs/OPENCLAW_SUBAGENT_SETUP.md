@@ -21,6 +21,25 @@ This setup is **not** trying to create:
 
 Those can exist later, but they are not the starting architecture.
 
+## Where this fits in the bigger orchestration picture
+
+This guide focuses on the **sub-agent layer**.
+
+In the wider OpenClaw model, there are several orchestration layers:
+
+- **gateway routing** decides which agent owns inbound work
+- **sub-agents** handle bounded delegated tasks
+- **ACP sessions** handle persistent coding harness work
+- **TaskFlow** handles durable jobs with waiting and resume behavior
+
+If you want the architecture map first, read [`OPENCLAW_ORCHESTRATION_LAYERS.md`](OPENCLAW_ORCHESTRATION_LAYERS.md).
+
+Short rule:
+
+- use this guide when Quả Quả should stay the owner and just spawn scoped specialists
+- use ACP when a coding harness session should stay alive across turns
+- use TaskFlow when the job needs durable lifecycle state
+
 ## Recommended starting shape
 
 ### Main session
