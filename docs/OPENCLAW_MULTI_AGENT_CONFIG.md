@@ -134,20 +134,24 @@ Possible later tuning:
 
 ## Current live config check
 
-The live runtime at `/root/.openclaw/openclaw.json` already matches the important sub-agent structure on these points:
-- `quaqua` exists and is default
+After the phase 1 sub-agent migration, the live runtime at `/root/.openclaw/openclaw.json` now matches the important bounded-subagent structure on these points:
+- `main` is the current live default agent
 - all four specialists exist as explicit agent ids
 - `requireAgentId: true`
 - `maxSpawnDepth: 1`
 - sub-agent tool deny list includes `sessions_list` and `sessions_history`
+
+What is **not** true yet on the live machine:
+- `quaqua` is not yet the default runtime agent id
+- the phase 2 rename/identity cleanup has not been applied yet
 
 ## Validation checklist
 
 A correct configuration should satisfy all of these:
 
 ### Structure
-- [ ] `quaqua` is present in `agents.list`
-- [ ] `quaqua.default` is `true`
+- [ ] live phase 1: `main` is present in `agents.list` and is default
+- [ ] target phase 2: `quaqua` replaces `main` as the default agent id
 - [ ] `mat-cu`, `tieu-mi`, `ti-can`, `tieu-hoa` all exist in `agents.list`
 - [ ] each specialist has its own `agentDir`
 - [ ] shared workspace path is intentional

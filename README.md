@@ -105,7 +105,7 @@ Durable knowledge is optional. The minimal template does not require it.
 - [OPENCLAW_SUBAGENT_SETUP.md](docs/OPENCLAW_SUBAGENT_SETUP.md) - AI-first OpenClaw config and native sub-agent setup
 - [OPENCLAW_ORCHESTRATION_LAYERS.md](docs/OPENCLAW_ORCHESTRATION_LAYERS.md) - advanced architecture map beyond the default orchestrator + sub-agents model
 - [OPENCLAW_MULTI_AGENT_CONFIG.md](docs/OPENCLAW_MULTI_AGENT_CONFIG.md) - copy-paste-ready multi-agent config guidance and validation checklist
-- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](docs/OPENCLAW_MACHINE_CONFIG_EXAMPLE.md) - machine-shaped production example based on the current live setup
+- [OPENCLAW_MACHINE_CONFIG_EXAMPLE.md](docs/OPENCLAW_MACHINE_CONFIG_EXAMPLE.md) - machine-shaped production example aligned with the current phase 1 live setup
 
 ### Supporting docs
 - [CUSTOMIZATION.md](docs/CUSTOMIZATION.md) - how to adapt the template

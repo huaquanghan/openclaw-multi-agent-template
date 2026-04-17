@@ -1,13 +1,14 @@
 # OpenClaw Machine Config Example
 
-Production-ready example based on the current live machine setup.
+Production-ready example aligned with the current phase 1 live machine setup.
 
 ## Purpose
 
-This file is for the case where you want a copy-paste-ready starting block that matches the current machine's working multi-agent structure.
+This file is for the case where you want a copy-paste-ready starting block that matches the current machine's working phase 1 sub-agent structure.
 
 It focuses on:
-- Quả Quả as the default orchestrator
+- the current live default agent staying on `main`
+- Quả Quả naming/identity applied on that live default agent
 - four explicit specialist agent ids
 - bounded native sub-agent rules
 - the same provider/model shape already used on this machine
@@ -50,11 +51,11 @@ Adapt paths, secrets, and channel tokens before using in another environment.
     },
     "list": [
       {
-        "id": "quaqua",
+        "id": "main",
         "default": true,
         "name": "Quả Quả",
         "workspace": "/root/.openclaw/workspace",
-        "agentDir": "/root/.openclaw/agents/quaqua/agent",
+        "agentDir": "/root/.openclaw/agents/main/agent",
         "identity": {
           "name": "Quả Quả",
           "emoji": "🍑"
@@ -131,12 +132,18 @@ Adapt paths, secrets, and channel tokens before using in another environment.
 ## Why this block is production-ready for this machine
 
 It matches the currently validated live config on these important points:
-- `quaqua` is default
+- `main` is still the live default agent in phase 1
+- the live default agent is named Quả Quả
 - specialist ids are explicit
 - `requireAgentId` is enabled
 - spawn depth is bounded to `1`
 - sub-agent session-browsing tools are denied
 - default model and fallback match the live machine's setup
+
+## What phase 1 does not claim yet
+
+This example intentionally does **not** claim that the live machine has already finished the phase 2 rename/migration to a separate `quaqua` default agent id.
+That remains a later cleanup step if you want the runtime ids to match the template framing exactly.
 
 ## What this block intentionally does not include
 
